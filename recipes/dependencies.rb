@@ -1,4 +1,4 @@
-package chefdk
+package 'chefdk'
 
 node['opsworks-bootstrap']['cookbooks'].each do |cookbook|
 
