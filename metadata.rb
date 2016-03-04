@@ -1,4 +1,4 @@
-name        "opswork-bootstrap"
+name        "opswork_bootstrap"
 description  "Bootstrap recipe for dynamic chef recipe installation"
 version      "1.0.0"
 
