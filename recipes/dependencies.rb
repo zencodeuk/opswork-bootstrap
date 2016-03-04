@@ -1,4 +1,4 @@
-package 'chefdk'
+yum_package 'chefdk'
 
 node['opsworks-bootstrap']['cookbooks'].each do |cookbook|
 
