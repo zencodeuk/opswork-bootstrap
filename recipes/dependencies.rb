@@ -1,4 +1,6 @@
-yum_package 'chefdk'
+execute 'chefdk' do
+  command 'curl https://omnitruck.chef.io/install.sh | sudo bash -s -- -c current -P chefdk'
+end
 
 node['opsworks-bootstrap']['cookbooks'].each do |cookbook|
 
