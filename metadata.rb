@@ -4,6 +4,6 @@ version      "1.0.0"
 
 supports "ubuntu"
 
-recipe "opswork-bootstrap::dependencies"
+recipe "opswork_bootstrap::dependencies"
 
 
