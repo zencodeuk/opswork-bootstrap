@@ -10,7 +10,7 @@ node['opsworks-bootstrap']['cookbooks'].each do |cookbook|
 
   execute "berks-#{cookbook['name']}"
     command 'berks vendor ../'
-    cwd     "/var/chef/cookbooks/#{cookbook['name']"
+    cwd     "/var/chef/cookbooks/#{cookbook['name']}"
   end
 
 end
