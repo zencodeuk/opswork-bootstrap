@@ -1,9 +1,9 @@
-name        "opswork_bootstrap"
+name        "opsworks_bootstrap"
 description  "Bootstrap recipe for dynamic chef recipe installation"
 version      "1.0.0"
 
 supports "ubuntu"
 
-recipe "opswork_bootstrap::dependencies"
+recipe "opsworks_bootstrap::dependencies"
 
 
